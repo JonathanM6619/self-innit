@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jan  4 11:42:37 2022
+
+@author: jm854
+"""
+
+class Student:
+    def __init__(self, name, gpa, certified = False):
+        print("You successfuly constructed a Student object.")
+        self.name = name
+        self.gpa = gpa
+        self.certified = certified
+        
+    def print_info(self):
+        print("Student Name: " + self.name)
+        print("Grade Point Average: " + str(self.gpa))
+        print("Certified? " + str(self.certified))
+        
+
+leandro = Student("Leandro", 2.1, True)
+gionna = Student("Gionna", 2.9)
+kaleb = Student("kal", 4.0, True)
+
+
+print(leandro.certifie)
